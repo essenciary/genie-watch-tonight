@@ -1,0 +1,24 @@
+env: ENV["GENIE_ENV"]
+
+dev:
+  adapter: SQLite
+  database: db/netflix_catalog.sqlite
+  config:
+
+prod:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
+
+test:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
