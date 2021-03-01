@@ -545,3 +545,5 @@ end
 end
 ```
 
+If we navigate to `http://127.0.0.1:8000/admin/movies` we'll be asked to logged in. Using `admin` for the user and `admin` for the password will allow us to access the password protected section.
+
